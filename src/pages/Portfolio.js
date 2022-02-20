@@ -8,10 +8,10 @@ import wood from "../assets/wood.png";
 import pluswonen from "../assets/pluswonen.png";
 import arrow from "../assets/arrow.svg";
 
-import {plus1, plus2, plus3, plus4, plus5, plus6} from "../assets/portfolio/plus.js";
-import {olijf1, olijf2, olijf3, olijf4, olijf5, olijf6} from "../assets/portfolio/olijf.js";
-import {wood1, wood2, wood3, wood4, wood5} from "../assets/portfolio/wood.js";
-import {aalst1, aalst2, aalst3, aalst4} from "../assets/portfolio/aalst.js";
+import { plus1, plus2, plus3, plus4, plus5, plus6 } from "../assets/portfolio/plus.js";
+import { olijf1, olijf2, olijf3, olijf4, olijf5, olijf6 } from "../assets/portfolio/olijf.js";
+import { wood1, wood2, wood3, wood4, wood5 } from "../assets/portfolio/wood.js";
+import { aalst1, aalst2, aalst3, aalst4 } from "../assets/portfolio/aalst.js";
 
 const Portfolio = () => {
 
@@ -36,7 +36,7 @@ const Portfolio = () => {
         [aalst1, aalst2, aalst3, aalst4],
         [olijf1, olijf2, olijf3, olijf4, olijf5, olijf6],
         [wood1, wood2, wood3, wood4, wood5]
-    ]   
+    ]
 
     // const portfolioImages = []
     // portfolioImages[0] = fetchData()
@@ -46,7 +46,6 @@ const Portfolio = () => {
 
     return (
         <div>
-            <img src="http://localhost:5000/Stephanie/plus/plus1.png"></img>
             <a className={classes.top} href="#top"><img className={classes.arrow} src={arrow} alt="arrow" /></a>
             <div className={classes.links}>
                 {portfolioItems.map((portItem, i) => <PortfolioLink key={`${portItem.title}.${i}`} item={portItem}></PortfolioLink>)}
@@ -69,7 +68,7 @@ const Portfolio = () => {
                     <div className={classes.story}>
                         <h3>HET VERHAAL</h3>
                         <p>Dit project ging over het multifunctioneel wonen. Hoe kan een woning zo zijn aangepast dat het voor elk mogelijk gebruik of gezin kan voldoen. De uitdaging in dit project was het inpassen in de omgeving, de buren en de bestaande boom.
-                         Het uiteindelijke resultaat is een woning die als een puzzelstukje werd aangepast aan de omgeving, zodat het ontwerp niet invasief werd voor de buurt. Daarnaast werd het behouden van de enorme boom een stukje groen dat werd teruggeven aan de omgeving.</p>
+                            Het uiteindelijke resultaat is een woning die als een puzzelstukje werd aangepast aan de omgeving, zodat het ontwerp niet invasief werd voor de buurt. Daarnaast werd het behouden van de enorme boom een stukje groen dat werd teruggeven aan de omgeving.</p>
                     </div>
                 </div>
             </div>
@@ -81,7 +80,7 @@ const Portfolio = () => {
                 </div>
                 <CarouselComponent images={portfolioImages[1]} />
                 <div className={classes.textHolder}>
-                <div className={classes.info}>
+                    <div className={classes.info}>
                         <p><b>Jaar |</b>  2019 3e BACHELOR SEMESTER 1 SINT-LUCAS</p>
                         <p><b>Programma |</b> MASTERPLAN VOOR KEIZERSHALLEN  </p>
                         <p><b>Locatie |</b> Keizershallen, Aalst </p>
@@ -105,12 +104,12 @@ const Portfolio = () => {
                     <div className={classes.info}>
                         <p><b>Jaar | </b>2021 VOORBEREIDINGSPROGRAMMA UGENT </p>
                         <p><b>Programma |</b> DIENSTENCENTRUM </p>
-                        <p><b>Locatie |</b> Olijfstraat & Groendreef, Gent </p>   
+                        <p><b>Locatie |</b> Olijfstraat & Groendreef, Gent </p>
                     </div>
                     <div className={classes.story}>
                         <h3>HET VERHAAL</h3>
                         <p>Het dienstencentrum is een plaats waar de buurt terecht kan voor te lezen, te eten, te baden en gemeentelijke diensten. Deze functies zijn geclusterd per deel. Dit is een renovatieproject waarbij de structuur zoveel mogelijk wordt behouden.
-</p>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -122,7 +121,7 @@ const Portfolio = () => {
                 </div>
                 <CarouselComponent images={portfolioImages[3]} />
                 <div className={classes.textHolder}>
-                <div className={classes.info}>
+                    <div className={classes.info}>
                         <p><b>Jaar | </b>2021 1STE MASTER UGENT </p>
                         <p><b>Programma |</b> MUSEUM </p>
                         <p><b>Locatie | </b>Bankside, Londen </p>
