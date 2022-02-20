@@ -84,8 +84,8 @@ const Portfolio = () => {
                         <p><b>Jaar |</b>  2019 3e BACHELOR SEMESTER 1 SINT-LUCAS</p>
                         <p><b>Programma |</b> MASTERPLAN VOOR KEIZERSHALLEN  </p>
                         <p><b>Locatie |</b> Keizershallen, Aalst </p>
-                        <p><b>Onderzoek en masterplan |</b> <a target='_blank' href='https://www.youtube.com/watch?v=vx8xK42PXIE'> VIDEOLINK </a> </p>
-                        <p><b>Parkzone |</b> <a target='_blank' href='https://www.youtube.com/watch?v=wMKRa2EdJio'> VIDEOLINK </a> </p>
+                        <p><b>Onderzoek en masterplan |</b> <a target='_blank' rel="noreferrer" href='https://www.youtube.com/watch?v=vx8xK42PXIE'> VIDEOLINK </a> </p>
+                        <p><b>Parkzone |</b> <a target='_blank' rel="noreferrer" href='https://www.youtube.com/watch?v=wMKRa2EdJio'> VIDEOLINK </a> </p>
                     </div>
                     <div className={classes.story}>
                         <h3>HET VERHAAL</h3>
